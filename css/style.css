@@ -18,6 +18,9 @@ body {
     justify-content: center;
     background-color: #fff;
     height: 95px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
 }
 
 .header-logo {
@@ -277,7 +280,7 @@ body {
 }
 
 .read-more-button {
-    margin-top: 350px;
+    margin-top: 430px;
     margin-left: 94px;
     position: absolute;
     background-color: #F16A06;
@@ -469,11 +472,115 @@ body {
     border-radius: 2px;
 }
 
+#contact-card {
+    background-color: #2D2B2B;
+}
+
+.contact-card-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    margin-top: -40px;
+}
+
+.phone-content {
+    color: #fff;
+    margin-left: 60px;
+}
+
+.fa-phone-alt {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.phone-content h1 {
+    font-size: 32x;
+    margin: 10px;
+}
+
+.phone-content p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.phone-content h2 {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.email-content {
+    color: #fff;
+}
+
+.fa-envelope {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.email-content h1 {
+    font-size: 32x;
+    margin: 10px;
+}
+
+.email-content p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.email-content h2 {
+    font-size: 14px;
+    margin: 10px;
+}
+
+.location-content {
+    color: #fff;
+    margin-right: 90px;
+}
+
+.fa-map-marker-alt {
+    font-size: 3em;
+    margin: 10px;
+}
+
+.location-content h1 {
+    font-size: 32x;
+    margin: 10px;
+}
+
+.location-content p {
+    font-size: 14px;
+    font-weight: normal;
+    margin: 10px;
+}
+
+.location-content h2 {
+    font-size: 14px;
+    margin: 10px;
+}
+
+
+/*FORM*/
+
+#form {
+    display: flex;
+    padding: 90px;
+}
+
 
 /*FOOTER*/
 
 #footer {
     display: flex;
+}
+
+.form-heading {
+    margin: auto;
+}
+
+.form-heading p {
+    text-align: center;
 }
 
 .footer-content {
