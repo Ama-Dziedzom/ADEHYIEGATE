@@ -335,6 +335,22 @@ body {
     margin-left: -20px;
 }
 
+#images {
+    display: flex;
+}
+
+.images-holder {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -90px;
+}
+
+.images-holder img {
+    margin-left: -10px;
+}
+
 .values-content-text-1 h1 {
     margin-top: 250px;
     margin-left: 90px;
@@ -473,7 +489,7 @@ body {
 
 #links h1 {
     margin-top: 80px;
-    margin-left: -1000px;
+    margin-left: -930px;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
@@ -482,7 +498,7 @@ body {
 .link-items {
     list-style: none;
     position: absolute;
-    margin-left: -1000px;
+    margin-left: -930px;
     margin-top: 10px;
 }
 
@@ -501,7 +517,7 @@ body {
 
 #contact {
     position: absolute;
-    margin-left: 1300px;
+    margin-left: 1200px;
     margin-top: 80px;
 }
 
