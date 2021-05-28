@@ -132,6 +132,31 @@ body {
     color: #fff;
 }
 
+.contact-content img {
+    width: 1920px;
+}
+
+.contact-content h1 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+    margin-left: 750px;
+    font-size: 72px;
+    color: #fff;
+}
+
+.contact-content p {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;
+    margin-left: 870px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
 
 /*MID-SECTION*/
 
