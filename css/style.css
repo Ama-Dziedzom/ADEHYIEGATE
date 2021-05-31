@@ -96,6 +96,29 @@ body {
     line-height: 20px;
 }
 
+
+/*DONATE*/
+
+.donate-content img {
+    width: 1920px;
+    padding-bottom: 100px;
+}
+
+.donate-content h1 {
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-left: 650px;
+    font-size: 72px;
+    margin-top: 350px;
+    color: #fff;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+
+/*ABOUT*/
+
 .about-content img {
     width: 1920px;
 }
@@ -121,6 +144,9 @@ body {
     color: #fff;
 }
 
+
+/*GALLERY*/
+
 .gallery-content img {
     width: 1920px;
 }
@@ -134,6 +160,50 @@ body {
     font-size: 72px;
     color: #fff;
 }
+
+#gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.gallery-holder {
+    margin-left: -160px;
+    margin-right: -190px;
+}
+
+.gallery-holder img {
+    margin-left: -20px;
+}
+
+#img {
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.img-holder img {
+    justify-content: center;
+    width: 1920px;
+}
+
+#images {
+    display: flex;
+}
+
+.images-holder {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -90px;
+}
+
+.images-holder img {
+    margin-left: -10px;
+}
+
+
+/*CONTACT*/
 
 .contact-content img {
     width: 1920px;
@@ -159,6 +229,9 @@ body {
     font-weight: bold;
     color: #fff;
 }
+
+
+/*VOLUNTEER*/
 
 .volun-content img {
     width: 1920px;
@@ -304,6 +377,9 @@ body {
     margin-top: 40px;
 }
 
+
+/*BUTTON*/
+
 .read-more-button {
     margin-top: 430px;
     margin-left: 94px;
@@ -321,6 +397,9 @@ body {
     font-size: 14px;
     font-weight: bold;
 }
+
+
+/*ABOUT MIDSECTION*/
 
 #about-mid-section {
     display: flex;
@@ -341,6 +420,23 @@ body {
     font-weight: bold;
     color: #F16A06;
 }
+
+.about-mid-section-text p {
+    margin-left: -1200px;
+    margin-right: 1000px;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.04em;
+}
+
+.about-mid-section-text h2 {
+    margin-left: -1200px;
+    font-size: 46px;
+}
+
+
+/*VOLUNTEER MIDSECTION*/
 
 #volun-mid-section {
     display: flex;
@@ -386,19 +482,49 @@ body {
     font-weight: bold;
 }
 
-.about-mid-section-text p {
-    margin-left: -1200px;
-    margin-right: 1000px;
-    margin-top: 20px;
-    font-size: 18px;
-    line-height: 25px;
-    letter-spacing: -0.04em;
+#volunteer {
+    display: flex;
+    padding-bottom: 90px;
 }
 
-.about-mid-section-text h2 {
-    margin-left: -1200px;
+.volunteer-content {
+    justify-content: center;
+    margin: auto;
+    padding: 90px;
+}
+
+.volunteer-content h1 {
     font-size: 46px;
 }
+
+.volunteer-content p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.button {
+    margin-top: 240px;
+}
+
+.button a {
+    text-decoration: none;
+    margin-left: -960px;
+    background-color: #F16A06;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 2px;
+}
+
+.volun-values-content img {
+    padding: 80px;
+    margin-left: 100px;
+}
+
+
+/*VALUES*/
 
 #values {
     display: flex;
@@ -415,52 +541,6 @@ body {
     margin-left: 90px;
     font-size: 54px;
     font-weight: bold;
-}
-
-.volun-values-content img {
-    padding: 80px;
-    margin-left: 100px;
-}
-
-#gallery {
-    display: flex;
-    justify-content: center;
-    margin-top: 50px;
-}
-
-.gallery-holder {
-    margin-left: -160px;
-    margin-right: -190px;
-}
-
-.gallery-holder img {
-    margin-left: -20px;
-}
-
-#img {
-    display: flex;
-    padding-bottom: 100px;
-}
-
-.img-holder img {
-    justify-content: center;
-    width: 1920px;
-}
-
-#images {
-    display: flex;
-}
-
-.images-holder {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-top: -10px;
-    margin-left: -10px;
-    margin-right: -90px;
-}
-
-.images-holder img {
-    margin-left: -10px;
 }
 
 .values-content-text-1 h1 {
@@ -520,41 +600,8 @@ body {
     margin-left: 150px;
 }
 
-#volunteer {
-    display: flex;
-    padding-bottom: 90px;
-}
 
-.volunteer-content {
-    justify-content: center;
-    margin: auto;
-    padding: 90px;
-}
-
-.volunteer-content h1 {
-    font-size: 46px;
-}
-
-.volunteer-content p {
-    text-align: center;
-    margin-top: 10px;
-    font-size: 18px;
-}
-
-.button {
-    margin-top: 240px;
-}
-
-.button a {
-    text-decoration: none;
-    margin-left: -960px;
-    background-color: #F16A06;
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 2px;
-}
+/*CONTACT*/
 
 #contact-card {
     background-color: #2D2B2B;
@@ -643,6 +690,9 @@ body {
     font-size: 14px;
     margin: 10px;
 }
+
+
+/*EMAIL*/
 
 #email-form {
     display: flex;
