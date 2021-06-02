@@ -59,6 +59,10 @@ body {
     border-width: 5px;
 }
 
+.menu {
+    display: hidden;
+}
+
 
 /*BANNER*/
 
@@ -940,4 +944,61 @@ input[type="textbox"] {
     margin-top: 20px;
     margin-left: 800px;
     color: #fff;
+}
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Header */
+    #header {
+        display: flex;
+        justify-content: center;
+        background-color: #fff;
+        height: 70px;
+        position: fixed;
+        z-index: 1000;
+        width: 100%;
+    }
+    .header-logo img {
+        width: 200px;
+        height: 65px;
+    }
+    .nav-bar-items {
+        display: none;
+    }
+    .menu {
+        margin-left: -70px;
+        margin-top: -21px;
+    }
+    .fa-bars {
+        font-size: 2em;
+    }
+    #banner {
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+    }
+    .banner-content h1 {
+        display: none;
+    }
+    .banner-content p {
+        display: none;
+    }
+    .box-1 h1 {
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: -0.04em;
+        color: #FFFFFF;
+        margin-left: 20px;
+        margin-top: 60px;
+    }
+    .box-1 h2 {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
 }
