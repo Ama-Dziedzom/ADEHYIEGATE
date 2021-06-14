@@ -54,6 +54,10 @@ body {
     color: #000;
 }
 
+.nav-bar-items a::before {
+    color: #000;
+}
+
 .nav-bar-items li:hover {
     border-bottom: solid #F16A06;
     border-width: 5px;
@@ -955,24 +959,18 @@ input[type="textbox"] {
         display: flex;
         justify-content: center;
         background-color: #fff;
-        height: 70px;
+        height: 200px;
         position: fixed;
         z-index: 1000;
         width: 100%;
+        flex-direction: column;
+    }
+    .header-logo {
+        margin-left: 100px;
     }
     .header-logo img {
         width: 200px;
         height: 65px;
-    }
-    .nav-bar-items {
-        display: none;
-    }
-    .menu {
-        margin-left: -70px;
-        margin-top: -21px;
-    }
-    .fa-bars {
-        font-size: 2em;
     }
     #banner {
         display: flex;
